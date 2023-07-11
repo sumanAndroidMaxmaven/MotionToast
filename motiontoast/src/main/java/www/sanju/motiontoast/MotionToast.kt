@@ -1329,7 +1329,7 @@ class MotionToast {
             if (position == GRAVITY_BOTTOM) {
                 toast.setGravity(position, 0, 100)
             } else {
-                toast.setGravity(position, 0, 0)
+                toast.setGravity(position, 0, 100)
             }
         }
 
