@@ -1326,11 +1326,7 @@ class MotionToast {
         }
 
         private fun setGravity(position: Int, toast: Toast) {
-            if (position == GRAVITY_BOTTOM) {
                 toast.setGravity(position, 0, 100)
-            } else {
-                toast.setGravity(position, 0, 0)
-            }
         }
 
         private fun setBackgroundAndFilter(
